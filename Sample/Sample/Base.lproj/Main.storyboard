@@ -35,48 +35,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V6F-t8-NMS">
-                                <rect key="frame" x="21" y="483" width="333" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="333" id="MHM-tl-UP1"/>
-                                    <constraint firstAttribute="height" constant="52" id="pn6-iR-bbn"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfG-K6-KbV">
-                                <rect key="frame" x="101" y="701" width="173" height="54"/>
-                                <color key="backgroundColor" red="0.1035534505149011" green="0.74073024611398963" blue="0.39040490455854077" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="lcS-I0-cBJ"/>
-                                    <constraint firstAttribute="width" constant="173" id="t44-oQ-ygO"/>
-                                </constraints>
-                                <state key="normal" title="Login">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMX-w7-iNg">
-                                <rect key="frame" x="202" y="610" width="152" height="23"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="23" id="UT3-DW-AK0"/>
-                                    <constraint firstAttribute="width" constant="152" id="aFN-7U-g6C"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dwn-xj-CWq">
-                                <rect key="frame" x="21" y="550" width="333" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="Lpr-k6-ObD"/>
-                                    <constraint firstAttribute="width" constant="333" id="Ol8-Md-V7A"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the world of NIBM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLS-IJ-3Xv">
                                 <rect key="frame" x="77" y="417" width="221" height="23"/>
                                 <constraints>
@@ -89,6 +47,49 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V6F-t8-NMS">
+                                <rect key="frame" x="21" y="483" width="333" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="333" id="MHM-tl-UP1"/>
+                                    <constraint firstAttribute="height" constant="52" id="pn6-iR-bbn"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dwn-xj-CWq">
+                                <rect key="frame" x="21" y="550" width="333" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Lpr-k6-ObD"/>
+                                    <constraint firstAttribute="width" constant="333" id="Ol8-Md-V7A"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMX-w7-iNg">
+                                <rect key="frame" x="202" y="610" width="152" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="UT3-DW-AK0"/>
+                                    <constraint firstAttribute="width" constant="152" id="aFN-7U-g6C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfG-K6-KbV">
+                                <rect key="frame" x="101" y="701" width="173" height="54"/>
+                                <color key="backgroundColor" red="0.1035534505149011" green="0.74073024611398963" blue="0.39040490455854077" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="lcS-I0-cBJ"/>
+                                    <constraint firstAttribute="width" constant="173" id="t44-oQ-ygO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
