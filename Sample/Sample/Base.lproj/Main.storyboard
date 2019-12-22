@@ -18,6 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="0b2-SP-gtM">
+                                <rect key="frame" x="67.666666666666686" y="132" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="7Ce-xV-S80"/>
+                                    <constraint firstAttribute="height" constant="128" id="tXv-UV-xKx"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHs-30-27R">
                                 <rect key="frame" x="149" y="290" width="77" height="39"/>
                                 <constraints>
@@ -50,18 +57,6 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the world of NIBM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLS-IJ-3Xv">
-                                <rect key="frame" x="77" y="417" width="221" height="23"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="221" id="6RS-dN-tgS"/>
-                                    <constraint firstAttribute="height" constant="23" id="CHo-lK-0wz"/>
-                                    <constraint firstAttribute="width" constant="221" id="mS9-uu-1pa"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="23" id="oaH-u4-Q9L"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMX-w7-iNg">
                                 <rect key="frame" x="202" y="610" width="152" height="23"/>
                                 <constraints>
@@ -82,13 +77,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="0b2-SP-gtM">
-                                <rect key="frame" x="67.666666666666686" y="132" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the world of NIBM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLS-IJ-3Xv">
+                                <rect key="frame" x="77" y="417" width="221" height="23"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="7Ce-xV-S80"/>
-                                    <constraint firstAttribute="height" constant="128" id="tXv-UV-xKx"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="221" id="6RS-dN-tgS"/>
+                                    <constraint firstAttribute="height" constant="23" id="CHo-lK-0wz"/>
+                                    <constraint firstAttribute="width" constant="221" id="mS9-uu-1pa"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="23" id="oaH-u4-Q9L"/>
                                 </constraints>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
