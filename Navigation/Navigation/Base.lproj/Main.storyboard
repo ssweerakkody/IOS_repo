@@ -18,15 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnE-Cs-sKe">
-                                <rect key="frame" x="192" y="433" width="30" height="30"/>
-                                <state key="normal" title="Red"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnE-Cs-sKe">
+                                <rect key="frame" x="193" y="406" width="30" height="30"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" red="1" green="0.036245735243500832" blue="0.0" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="goToRedScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Onu-cr-bL6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4H-BC-0hP">
-                                <rect key="frame" x="191.5" y="487" width="31" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4H-BC-0hP">
+                                <rect key="frame" x="192" y="460" width="31" height="30"/>
                                 <state key="normal" title="Blue"/>
                                 <connections>
                                     <action selector="goToBlueScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MV9-eD-1Tp"/>
@@ -35,10 +37,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ZnE-Cs-sKe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5zz-3c-IkC"/>
-                            <constraint firstItem="R4H-BC-0hP" firstAttribute="centerX" secondItem="ZnE-Cs-sKe" secondAttribute="centerX" id="Keb-LN-XDO"/>
-                            <constraint firstItem="ZnE-Cs-sKe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UAv-dU-tKJ"/>
-                            <constraint firstItem="R4H-BC-0hP" firstAttribute="top" secondItem="ZnE-Cs-sKe" secondAttribute="bottom" constant="24" id="lvR-OY-a1l"/>
+                            <constraint firstItem="ZnE-Cs-sKe" firstAttribute="trailing" secondItem="R4H-BC-0hP" secondAttribute="trailing" id="8Cg-bG-ghF"/>
+                            <constraint firstItem="R4H-BC-0hP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="192" id="SpZ-P8-J1f"/>
+                            <constraint firstItem="R4H-BC-0hP" firstAttribute="top" secondItem="ZnE-Cs-sKe" secondAttribute="bottom" constant="24" id="fJD-Fh-4l6"/>
+                            <constraint firstItem="ZnE-Cs-sKe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="318" id="hnf-0M-waM"/>
+                            <constraint firstItem="R4H-BC-0hP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qBr-uo-akr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
