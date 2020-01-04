@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9Y-oS-UEc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9Y-oS-UEc">
                                 <rect key="frame" x="191" y="361" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Red">
                                     <color key="titleColor" red="1" green="0.03624573524" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -28,9 +27,8 @@
                                     <action selector="goToRedScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0JN-nw-b3G"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLW-eT-TgD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLW-eT-TgD">
                                 <rect key="frame" x="190" y="487" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Blue"/>
                                 <connections>
                                     <action selector="goToBlueScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V1Q-pA-8AK"/>
@@ -38,6 +36,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uLW-eT-TgD" firstAttribute="top" secondItem="Y9Y-oS-UEc" secondAttribute="bottom" constant="96" id="0m6-sB-lcb"/>
+                            <constraint firstItem="Y9Y-oS-UEc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="273" id="54Q-eT-N3k"/>
+                            <constraint firstItem="uLW-eT-TgD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="190" id="Fah-j8-7XU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y9Y-oS-UEc" secondAttribute="trailing" constant="193" id="OYo-vX-VVB"/>
+                            <constraint firstItem="Y9Y-oS-UEc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="191" id="T4o-G3-des"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uLW-eT-TgD" secondAttribute="bottom" constant="345" id="cgr-dH-EEJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uLW-eT-TgD" secondAttribute="trailing" constant="193" id="fZ7-fQ-bdW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xmo-NS-SoS"/>
