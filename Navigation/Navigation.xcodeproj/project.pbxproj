@@ -13,6 +13,7 @@
 		994D280523BCE660000BA00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994D280323BCE660000BA00B /* LaunchScreen.storyboard */; };
 		994D281023BCE661000BA00B /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D280F23BCE661000BA00B /* NavigationTests.swift */; };
 		994D281B23BCE661000BA00B /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D281A23BCE661000BA00B /* NavigationUITests.swift */; };
+		9960A17623C19658009DB9CA /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9960A17523C19658009DB9CA /* BorderButton.swift */; };
 		998DDB6923C0E30500B2BD56 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998DDB6823C0E30500B2BD56 /* GreenViewController.swift */; };
 		998DDB6B23C0E32100B2BD56 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998DDB6A23C0E32100B2BD56 /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		994D281623BCE661000BA00B /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		994D281A23BCE661000BA00B /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		994D281C23BCE661000BA00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9960A17523C19658009DB9CA /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		998DDB6823C0E30500B2BD56 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		998DDB6A23C0E32100B2BD56 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 				994D280623BCE660000BA00B /* Info.plist */,
 				998DDB6823C0E30500B2BD56 /* GreenViewController.swift */,
 				998DDB6A23C0E32100B2BD56 /* BlueViewController.swift */,
+				9960A17523C19658009DB9CA /* BorderButton.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				998DDB6923C0E30500B2BD56 /* GreenViewController.swift in Sources */,
 				998DDB6B23C0E32100B2BD56 /* BlueViewController.swift in Sources */,
 				994D27FB23BCE65F000BA00B /* AppDelegate.swift in Sources */,
+				9960A17623C19658009DB9CA /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
