@@ -19,6 +19,7 @@ class BorderButton : UIButton{
         }
     }
     
+    
     @IBInspectable
     var titleColor: UIColor?{
         didSet{
